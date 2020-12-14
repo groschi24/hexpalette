@@ -1,0 +1,66 @@
+{
+  "name": "hexpalette",
+  "version": "1.0.0",
+  "description": "This is the Frontend for https://hexpalette.com/",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint": "npm run lint:js && npm run lint:style"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "color": "^3.1.2",
+    "nuxt": "^2.14.0",
+    "randomcolor": "^0.6.2",
+    "vee-validate": "^3.3.9",
+    "vue-color": "^2.7.1",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-lazyload": "^1.3.3",
+    "vue-toast-notification": "^0.5.0",
+    "vuedraggable": "^2.24.1",
+    "vuex-persist": "^2.2.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^1.0.3",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/google-fonts": "^1.0.0",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/tailwindcss": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss-dark-mode": "^1.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groschi24/hexpalette.git"
+  },
+  "keywords": [
+    "color",
+    "color palette",
+    "color generator",
+    "color schematic"
+  ],
+  "author": "Dennis Grosch <grosch.dennis08@gmail.com>",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/groschi24/hexpalette/issues"
+  },
+  "homepage": "https://hexpalette.com"
+}
