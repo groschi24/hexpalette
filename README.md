@@ -13,7 +13,7 @@
 </div>
 
 <div align="center" style="margin-top: 25px;margin-bottom: 25px;">
-  <a href="https://hoppscotch.io"><img src="https://user-images.githubusercontent.com/7085454/102082027-7ef0ab80-3e11-11eb-8038-ac33fec1278b.jpg" alt="Screenshot1" width="100%"></a>
+  <a href="https://hexpalette.com"><img src="https://user-images.githubusercontent.com/7085454/102082027-7ef0ab80-3e11-11eb-8038-ac33fec1278b.jpg" alt="Screenshot" width="100%"></a>
 </div>
 
 ## Dev Setup
